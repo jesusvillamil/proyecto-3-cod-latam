@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus Villamil</title>
+    <link rel="icon" type="image/x-icon" href="img\favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <!--<a href="https://drive.google.com/file/d/16uTV8cIcn-A_HLzhse7YXnZghM18R1sW/view?usp=sharing">
+            <img src="img\logo Cinted_3.png" alt="logo_Cinted" class="logo" 
+        </a>>-->
+        
+        <a href="#inicio" aria-label="Ir a la seccion de inicio">
+            <img src="img\logo Cinted_3.png" alt="logo_Cinted" class="logo"></a>
+
+        <nav>
+            <ul> id="menu">
+                <li class="menu-item"><a href="#inicio" class="active">Inicio</a></li>
+                <li class="menu-item"><a href="#contacto">Contactos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="inicio">
+
+            <figure class="mi_foto">
+                <img src="img\foto jesusvillamil.png" alt="foto Jesus Villamil" class="figure" />
+            </figure>
+
+            <article class="perfil">
+                <h1>¡Jesús Manuel Villamil Villabona!</h1>
+                <p>Profesional de la educación y apasionado por las tecnologías de la información y comunicación y sus
+                    aportes a la educación lo cual me llevó a especializarme en el diseño, implementación y seguimiento
+                    de aulas virtuales gestionadas a través del LMS Moodle</p>
+                <!--Tener presente que se trata de un enlace que se le aplica estilo para parecer botón-->
+                <!--tener presente la carga del archivo del CV en formato PDF-->
+
+                <a href="CV-JESUS_VILLAMIL-140723-TIC.pdf" target="_blank" class="btn">Descargar mi CV</a>
+            </article>
+        </section>
+
+        <section id="contacto">
+
+            <article class="habilidades">
+                <h2>Qué aporto</h2>
+                <p>En torno a la consecución de los objetivos de la organización aporto mi capacidad de adaptación
+                    frente a escenarios inesperados, una excelente memoria para resguardar los procesos ordinarios y/o
+                    extraordinarios de la organización en aras de ejecutar y documentar las buenas prácticas de la
+                    organización </p>
+            </article>
+                <ul id="contacto">
+                    <li><a href="mailto:jesusvillamil@gmail.com?subject=contacto a través de la pagina"><img
+                            src="img\mail.png" alt="jesusvillamil@gmail.com" class="iconos"></a></li>
+                    <li> <a href="https://github.com/jesusvillamil"><img src="img\github.png" alt="Githu"
+                            class="iconos"></a></li>
+                    <li><a href="https://www.linkedin.com/in/jesus-manuel-villamil-villabona-24292a2b"><img
+                            src="img\linkedin.png" alt="linkedin" class="iconos"></a></li>
+                </ul>      
+        </section>
+    </main>
+    <footer>
+        <h4>Realizado por Jesús Villamil</h4>
+    </footer>
+    <!--Realizar el vinculo con javascript-->
+    <script>src="js\main.js"</script>
+
+</body>
+
+</html>
